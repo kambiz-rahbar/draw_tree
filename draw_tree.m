@@ -8,5 +8,5 @@ treeplot(parrent_number)
 
 [x,y] = treelayout(parrent_number);
 for i=1:length(x)
-    text(x(i)+0.03,y(i),node_name(i))
+    text(x(i)+0.03,y(i),node_name(i,:))
 end
